@@ -24,6 +24,7 @@
 <table class="table">
     <thead>
         <tr>
+        <th>ID NO.</th>
         <th>FIRST NAME</th>
         <th>LAST NAME</th>
         <th>EMAIL</th>
@@ -31,12 +32,15 @@
         <th>CITY</th>
         <th>STATE</th>
         <th>ZIP CODE</th>
+        <th>UPDATE</th>
+        <th>DELETE</th>
     </tr>
 </thead>
 <tbody>
    {% if records %}
        {% for record in records %}
            <tr>
+              <td>{{ record.id }}</td>
               <td>{{ record.first_name }}</td>
               <td>{{ record.last_name }}</td>
               <td>{{ record.email }}</td>
@@ -44,6 +48,43 @@
               <td>{{ record.city }}</td>
               <td>{{ record.state }}</td>
               <td>{{ record.zipcode }}</td>
+              <td><a href="{% url 'update_records' record.id %}">
+                <button class="btn btn-primary">UPDATE</button>
+              </a>
+            </td>
+            <td>
+
+
+                <a href="{% url 'delete_record' record.id %}">
+                    <button class="btn btn-danger">{{ record.id }}</button>
+                </a>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    DELETE RECORD
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete? {{ record.first_name }}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            {{ record.first_name }} <br>
+                            {{ record.last_name }} <br>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- END Modal -->
+        </td>
            </tr>
            {% endfor %}
     {% endif %}
@@ -51,7 +92,6 @@
 </table>
 
 {% else %}
-
 <div class="col-md-6 offset-md-3"></div>
 <h1>LOGIN</h1>
 <form action="" method="post">
@@ -71,11 +111,13 @@
 
 {% endif %}
 
+
 {% endblock %}
 
 
 
 
-
+  
+  
 
 

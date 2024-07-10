@@ -13,7 +13,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-blue bg-dark">
+<nav class="navbar navbar-expand-lg" style="background-color: #a2bac4;">
     <div class="container-fluid">
       <img src="{% static '/img/earist.png' %}" alt="" width="60" height="60">
       <a class="navbar-brand" href="#">EARIST</a>
@@ -23,10 +23,13 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'registration' %}">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'add_records' %}">Add Record</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'logout' %}">Logout</a>
