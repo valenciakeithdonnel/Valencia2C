@@ -1,9 +1,81 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Boys will be Boys.</h1>
-<form action=""></form>
-<table></table>
+
+<style>
+    .container{
+        max-width: 80%;
+    }
+</style>
+
+
+<div class="container">
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>{{ message }}</strong> 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div> 
+    {% endfor %}
+{% endif %}
+
+{% if user.is_authenticated %}
+
+<table class="table">
+    <thead>
+        <tr>
+        <th>FIRST NAME</th>
+        <th>LAST NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE</th>
+        <th>CITY</th>
+        <th>STATE</th>
+        <th>ZIP CODE</th>
+    </tr>
+</thead>
+<tbody>
+   {% if records %}
+       {% for record in records %}
+           <tr>
+              <td>{{ record.first_name }}</td>
+              <td>{{ record.last_name }}</td>
+              <td>{{ record.email }}</td>
+              <td>{{ record.phone }}</td>
+              <td>{{ record.city }}</td>
+              <td>{{ record.state }}</td>
+              <td>{{ record.zipcode }}</td>
+           </tr>
+           {% endfor %}
+    {% endif %}
+</tbody>
+</table>
+
+{% else %}
+
+<div class="col-md-6 offset-md-3"></div>
+<h1>LOGIN</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+    <input class="form-control" type="text" name="username" id="">
+    </div>
+    <div class="mb-3">
+    <input class="form-control" type="text" name="password" id="">
+    </div>
+    <div class="mb-3">
+    <button class="btn btn-primary btn-lg btn-block" type="submit">LOGIN</button>
+    </div>
+</form>
+</div>
+</div>
+
+{% endif %}
+
 {% endblock %}
+
+
+
+
+
 
 
